@@ -15,13 +15,13 @@ license = "MIT License"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId = "yourmodid" #mandatory TODO: change this!
+modId = "chromatic_capabilities" #mandatory TODO: change this!
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version = "${file.jarVersion}" #mandatory
 # A display name for the mod
-displayName = "Your Addon" #mandatory TODO: change this!
+displayName = "Chromatic Capabilities" #mandatory TODO: change this!
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -34,7 +34,15 @@ displayName = "Your Addon" #mandatory TODO: change this!
 #authors = "You" #optional
 # The description text for the mod (multi line!) (#mandatory) TODO: change this!
 description = '''
-Your Create addon description!
+Chromatic Capabilities is an addon for the mod Create, adding many uses and features to its end-game materials.
+Recipies, functions, and other content is based off of some lore I made. This lore is not cannon to the Create mod, and is my own story.
+
+Lore:
+	Chromatic compound (henceforth abbreviated as CC) is a compound capable of shifting into other “energy” levels. This energy isn’t what you would think of as energy, but is more of an essence of the world. The whole universe is a manifestation of this energy, and imbalances can cause interesting effects. Due to the association of this energy to chromatic, I shall name it “Chroma”
+	Refined Radiance is the “high” state of CC and is formed by the absorption of concentrations of chroma, such as light sources. The intense beam of a beacon is all the compound needs to convert to this form, however. Due to its abundance of chroma, Refined Radiance is somewhat capable of creation.
+	The void is an endless abyss, and is very absent of chroma. Due to the natural want of everything to be in balance, and the fact that the chroma in CC is very fluid, it gets ripped away from the material by the void, leaving a husk with just enough to exist. The loss of most of its chroma lifts it into the air, escaping complete annihilation by the abyss. It will gladly absorb matter to regain its lost chroma.
+	Despite any efforts, CC appears to get stuck in one state, but its properties suggest otherwise. There must be a way to convert it back to its balanced form.
+
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 # TODO: change all of the depdendencies.yourmodid to dependencies.(your modid) !
@@ -60,6 +68,6 @@ side = "BOTH"
 [[dependencies.yourmodid]]
 modId = "create"
 mandatory = true
-versionRange = "mc1.16.5_v0.3.1c" # TODO: probably update this, maybe to a version range https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
+versionRange = "[mc1.16.5_v0.3.2,)" # TODO: probably update this, maybe to a version range https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
 ordering = "NONE"
 side = "BOTH"
