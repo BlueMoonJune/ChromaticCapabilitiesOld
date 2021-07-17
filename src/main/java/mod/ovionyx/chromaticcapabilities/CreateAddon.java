@@ -1,6 +1,7 @@
-package mod.yourname.yourmodid;
+package mod.ovionyx.chromaticcapabilities;
 
-import mod.yourname.yourmodid.register.*;
+import mod.ovionyx.chromaticcapabilities.register.*;
+import mod.ovionyx.chromaticcapabilities.register.*;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.repack.registrate.util.NonNullLazyValue;
 import net.minecraftforge.api.distmarker.Dist;

@@ -1,8 +1,8 @@
-package mod.yourname.yourmodid.register;
+package mod.ovionyx.chromaticcapabilities.register;
 
 import com.simibubi.create.AllItems;
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import mod.yourname.yourmodid.BuildConfig;
+import mod.ovionyx.chromaticcapabilities.BuildConfig;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 

@@ -1,4 +1,4 @@
-package mod.yourname.yourmodid.register;
+package mod.ovionyx.chromaticcapabilities.register;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 
