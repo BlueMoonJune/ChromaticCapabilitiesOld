@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "mod.ovionyx.chromatic_capabilities",
+  "package": "mod.ovionyx.chromatic_capabilities.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "chromatic_capabilities.refmap.json",
   "mixins": [
