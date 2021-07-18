@@ -1,8 +1,8 @@
-package mod.ovionyx.chromatic_capabilities.register;
+package mod.ovionyx.chromaticcapabilities.register;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.ponder.PonderRegistry;
-import mod.ovionyx.chromatic_capabilities.BuildConfig;
+import mod.ovionyx.chromaticcapabilities.BuildConfig;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 
 public class ModPonder {
