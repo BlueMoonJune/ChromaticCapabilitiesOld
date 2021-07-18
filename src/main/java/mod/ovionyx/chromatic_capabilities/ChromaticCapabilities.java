@@ -1,14 +1,12 @@
-package mod.ovionyx.chromaticcapabilities;
+package mod.ovionyx.chromatic_capabilities;
 
-import mod.ovionyx.chromaticcapabilities.register.*;
-import mod.ovionyx.chromaticcapabilities.register.*;
+import mod.ovionyx.chromatic_capabilities.register.*;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.repack.registrate.util.NonNullLazyValue;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DatagenModLoader;
 import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -17,7 +15,7 @@ import org.apache.logging.log4j.Logger;
 
 // TODO: rename this class! and package name! package name should be mod.yourname.modid, see import of BuildConfig class
 @Mod(BuildConfig.MODID)
-public class CreateAddon {
+public class ChromaticCapabilities {
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger(BuildConfig.MODID);
@@ -25,7 +23,7 @@ public class CreateAddon {
 
     public static final NonNullLazyValue<CreateRegistrate> registrate = CreateRegistrate.lazy(BuildConfig.MODID);
 
-    public CreateAddon() {
+    public ChromaticCapabilities() {
         modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         CreateRegistrate r = registrate.get();
         ModItems.register(r);

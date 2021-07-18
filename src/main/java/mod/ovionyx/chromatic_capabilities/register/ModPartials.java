@@ -1,8 +1,7 @@
-package mod.ovionyx.chromaticcapabilities.register;
+package mod.ovionyx.chromatic_capabilities.register;
 
 import com.jozufozu.flywheel.core.PartialModel;
 import com.simibubi.create.Create;
-import mod.ovionyx.chromaticcapabilities.BuildConfig;
 import net.minecraft.util.ResourceLocation;
 
 public class ModPartials {
